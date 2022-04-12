@@ -1,0 +1,76 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+
+/* @font-face {
+    font-family: 'Ubuntu';
+    src: url(../Fonts/Ubuntu-Light.ttf);
+} */
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+.back-img{
+    background-image: url(../images/Banner1.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 64px;    
+}
+
+.mainHeading{
+    padding-top: 8%;
+}
+
+.font-italic{
+    font-size: 24px;
+}
+
+.cn > ul > li > a {
+    color: black;
+  }
+  
+.active {
+    color: white !important;
+    background-color: #DC3545 !important;
+}
+  
+a:hover {
+    color: #f26571 !important;
+}
+
+
+
+
+
+/* Media Query */
+
+@media screen  and (max-width : 768px){
+
+    .cc {
+        display: flex;
+        justify-content: center;
+    }
+    .mainHeading{
+        margin-top: 40vh;
+    }
+
+    .navbar-nav{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid rgb(228, 221, 221);
+    }
+}
